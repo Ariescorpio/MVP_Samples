@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dialog_loading_horizontal_padding">40dp</dimen>
+    <dimen name="dialog_loading_vertical_padding">20dp</dimen>
+    <dimen name="dp_6">6dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_30">30dp</dimen>
+
+    <dimen name="text_font_sub">16dp</dimen>
+
+</resources>

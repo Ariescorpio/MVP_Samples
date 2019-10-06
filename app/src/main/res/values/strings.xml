@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MVP_Samples</string>
+    <string name="text_loading">正在加载&#8230;</string>
+</resources>

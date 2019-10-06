@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:alpha="0.8"
+              android:gravity="center"
+              android:background="@drawable/shape_radius_6_black_tran"
+              android:paddingBottom="@dimen/dialog_loading_vertical_padding"
+              android:paddingTop="@dimen/dialog_loading_vertical_padding"
+              android:paddingLeft="@dimen/dialog_loading_horizontal_padding"
+              android:paddingRight="@dimen/dialog_loading_horizontal_padding">
+
+    <androidx.core.widget.ContentLoadingProgressBar
+            android:layout_width="@dimen/dp_30"
+            style="@style/Widget.AppCompat.ProgressBar"
+            android:layout_height="@dimen/dp_30"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:text="@string/text_loading"
+            android:textSize="@dimen/text_font_sub"
+            android:textColor="@color/color_white"/>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
